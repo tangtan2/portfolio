@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Redirect, Route } from "react-router-dom";
+import PageHome from "./Pages/PageHome";
+import Page50In07 from "./Pages/Page50In07";
+import PageResearch from "./Pages/PageResearch";
+import PageOrderUp from "./Pages/PageOrderUp";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <Route
+          path="/"
+          render={() => {
+            return <Redirect to="/about-me" />;
+          }}
+        />
+        <Route exact path="/about-me" component={PageHome} />
+        <Route exact path="/50-in-07" component={Page50In07} />
+        <Route exact path="/order-up" component={PageOrderUp} />
+        <Route exact path="/research" component={PageResearch} />
+      </BrowserRouter>
+    );
+  }
 }
-
-export default App;
