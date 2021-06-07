@@ -80,6 +80,11 @@ export default class PageHome extends React.Component {
             </a>
             !
           </div>
+          <Spacer type="row" size="large" />
+          <div>
+            Click through this website to learn more about my side projects and
+            research/publications!
+          </div>
           <Spacer type="row" size="xxlarge" />
           <div
             style={{
@@ -102,32 +107,22 @@ export default class PageHome extends React.Component {
             }}
           />
           <Spacer type="row" size="xlarge" />
-          <div style={{ display: "flex", flexDirection: "row" }}>
-            <div style={{ fontWeight: "bold" }}>Languages:</div>
-            <Spacer type="column" size="small" />
-            <div>Python, Java, C#, JavaScript/TypeScript, C++, MATLAB</div>
+          <div>
+            <b>Languages:</b> Python, Java, C#, JavaScript/TypeScript, C++,
+            MATLAB
           </div>
-          <div style={{ display: "flex", flexDirection: "row" }}>
-            <div style={{ fontWeight: "bold" }}>Machine Learning:</div>
-            <Spacer type="column" size="small" />
-            <div>scikit-learn, keras, Spark ML</div>
+          <div>
+            <b>Machine Learning:</b> scikit-learn, keras, Spark ML
           </div>
-          <div style={{ display: "flex", flexDirection: "row" }}>
-            <div style={{ fontWeight: "bold" }}>Optimization:</div>
-            <Spacer type="column" size="small" />
-            <div>CPLEX, Gurobi, OR-Tools, FICO XPRESS</div>
+          <div>
+            <b>Optimization:</b> CPLEX, Gurobi, OR-Tools, FICO XPRESS
           </div>
-          <div style={{ display: "flex", flexDirection: "row" }}>
-            <div style={{ fontWeight: "bold" }}>Development:</div>
-            <Spacer type="column" size="small" />
-            <div>
-              React, NodeJS, Angular, .NET Core/Framework, SignalR, Flask
-            </div>
+          <div>
+            <b>Development:</b> React, NodeJS, Angular, .NET Core/Framework,
+            SignalR, Flask
           </div>
-          <div style={{ display: "flex", flexDirection: "row" }}>
-            <div style={{ fontWeight: "bold" }}>Miscellaneous:</div>
-            <Spacer type="column" size="small" />
-            <div>SQL, Git/GitHub, jupyter, seaborn/matplotlib</div>
+          <div>
+            <b>Miscellaneous:</b> SQL, Git/GitHub, jupyter, seaborn/matplotlib
           </div>
           <Spacer type="row" size="xxlarge" />
           <div
@@ -151,22 +146,13 @@ export default class PageHome extends React.Component {
             }}
           />
           <Spacer type="row" size="xlarge" />
-          <div style={{ display: "flex", flexDirection: "row" }}>
-            <div style={{ fontWeight: "bold" }}>
-              Masters of Applied Science (2018 to 2020)
-            </div>
-            <Spacer type="column" size="small" />
-            <div>
-              from the University of Toronto (Research Area:
-              Optimization/Applied Mathematics)
-            </div>
+          <div>
+            <b>Masters of Applied Science (2018 to 2020)</b> from the University
+            of Toronto (Research Area: Optimization/Applied Mathematics)
           </div>
-          <div style={{ display: "flex", flexDirection: "row" }}>
-            <div style={{ fontWeight: "bold" }}>
-              Bachelors of Applied Science (2013 to 2018)
-            </div>
-            <Spacer type="column" size="small" />
-            <div>from the University of Waterloo</div>
+          <div>
+            <b>Bachelors of Applied Science (2013 to 2018)</b> from the
+            University of Waterloo
           </div>
           <Spacer type="row" size="xxlarge" />
           <div
