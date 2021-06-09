@@ -1,16 +1,13 @@
 import React from "react";
 import Page from "../Shared/Page";
 import Spacer from "../Shared/Spacer";
-import { ReactComponent as GithubLogo } from "../images/github.svg";
-import EmailLogo from "../images/email.png";
-import LinkedInLogo from "../images/linkedin.png";
 import CV from "../files/conference_paper.pdf";
+import { Link } from "react-router-dom";
 
 export default class PageHome extends React.Component {
   render() {
     return (
       <Page>
-        <Spacer type="row" size="large" />
         <div
           style={{
             display: "flex",
@@ -57,10 +54,11 @@ export default class PageHome extends React.Component {
           </div>
           <Spacer type="row" size="xxlarge" />
           <div>
-            I currently deliver custom software solutions to Fortune 500 clients
-            globally to help them optimize their processes and increase
-            production. I love combining data, theory, and expertise to develop
-            robust solutions for tough, multi-layered problems.
+            I currently work as a consultant and developer, delivering custom
+            software solutions to Fortune 500 clients globally to help optimize
+            their processes and increase profit. I love combining data, theory,
+            and expertise to develop robust solutions for tough, multi-layered
+            problems.
           </div>
           <Spacer type="row" size="large" />
           <div>
@@ -82,8 +80,25 @@ export default class PageHome extends React.Component {
           </div>
           <Spacer type="row" size="large" />
           <div>
-            Click through this website to learn more about my side projects and
-            research/publications!
+            I've featured two of my larger side projects on this website, a{" "}
+            <Link to="/50-in-07">
+              predictive analytics dashboard for the Maple Leafs
+            </Link>{" "}
+            and a{" "}
+            <Link to="/order-up">
+              live ordering system for manufacturing facilities
+            </Link>
+            . I also have some other projects on my{" "}
+            <a href="https://github.com/tangtan2">GitHub</a> profile, including
+            an{" "}
+            <a href="https://github.com/tangtan2/emotion_detection">
+              emotion detection model
+            </a>{" "}
+            using deep transfer learning and a{" "}
+            <a href="https://github.com/tangtan2/bike_share_rebalancing">
+              bike share rebalancing analysis
+            </a>{" "}
+            using machine learning and Apache Spark.
           </div>
           <Spacer type="row" size="xxlarge" />
           <div
@@ -100,12 +115,6 @@ export default class PageHome extends React.Component {
           >
             TECHNICAL SKILLS
           </div>
-          <div
-            style={{
-              paddingTop: "5px",
-              borderBottom: "1px solid #7FB3D5",
-            }}
-          />
           <Spacer type="row" size="xlarge" />
           <div>
             <b>Languages:</b> Python, Java, C#, JavaScript/TypeScript, C++,
@@ -139,12 +148,6 @@ export default class PageHome extends React.Component {
           >
             EDUCATION
           </div>
-          <div
-            style={{
-              paddingTop: "5px",
-              borderBottom: "1px solid #7FB3D5",
-            }}
-          />
           <Spacer type="row" size="xlarge" />
           <div>
             <b>Masters of Applied Science (2018 to 2020)</b> from the University
@@ -153,71 +156,6 @@ export default class PageHome extends React.Component {
           <div>
             <b>Bachelors of Applied Science (2013 to 2018)</b> from the
             University of Waterloo
-          </div>
-          <Spacer type="row" size="xxlarge" />
-          <div
-            style={{
-              fontSize: "20pt",
-              height: "50px",
-              textAlign: "center",
-              width: "300px",
-              lineHeight: "50px",
-              backgroundColor: "#7FB3D5",
-              borderRadius: "10px",
-              color: "white",
-            }}
-          >
-            CONTACT ME
-          </div>
-          <div
-            style={{
-              paddingTop: "5px",
-              borderBottom: "1px solid #7FB3D5",
-            }}
-          />
-          <Spacer type="row" size="xlarge" />
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              height: "50px",
-              alignItems: "center",
-            }}
-          >
-            <img alt="Email Logo" width="40px" height="35px" src={EmailLogo} />
-            <Spacer type="column" size="large" />
-            <a href="mailto:tanya.tang56@gmail.com">tanya.tang56@gmail.com</a>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              height: "50px",
-              alignItems: "center",
-            }}
-          >
-            <GithubLogo style={{ width: "40px", height: "40px" }} />
-            <Spacer type="column" size="large" />
-            <a href="https://github.com/tangtan2">tangtan2</a>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              height: "50px",
-              alignItems: "center",
-            }}
-          >
-            <img
-              alt="LinkedIn Logo"
-              width="40px"
-              height="37px"
-              src={LinkedInLogo}
-            />
-            <Spacer type="column" size="large" />
-            <a href="https://www.linkedin.com/in/tanya-t-50801881/">
-              Tanya Tang
-            </a>
           </div>
         </div>
       </Page>

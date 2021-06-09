@@ -1,4 +1,6 @@
+import Footer from "./Footer";
 import Header from "./Header";
+import Spacer from "./Spacer";
 
 const Page = (props: any) => {
   return (
@@ -13,18 +15,22 @@ const Page = (props: any) => {
         style={{
           display: "flex",
           flexDirection: "row",
+          backgroundColor: "#F2F4F4",
         }}
       >
         <div style={{ flex: 1 }} />
         <div
           style={{
-            width: "1200px",
+            width: "1000px",
           }}
         >
+          <Spacer type="row" size="xxlarge" />
           {props.children}
+          <Spacer type="row" size="xxlarge" />
         </div>
         <div style={{ flex: 1 }} />
       </div>
+      <Footer />
     </div>
   );
 };
