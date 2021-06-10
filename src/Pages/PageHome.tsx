@@ -2,6 +2,7 @@ import React from "react";
 import Page from "../Shared/Page";
 import Spacer from "../Shared/Spacer";
 import CV from "../files/conference_paper.pdf";
+import Profile from "../images/profile.png";
 import { Link } from "react-router-dom";
 
 export default class PageHome extends React.Component {
@@ -27,9 +28,14 @@ export default class PageHome extends React.Component {
                 height: "300px",
                 border: "1px solid black",
                 boxShadow: "2px 2px 1px 1px",
+                borderRadius: "5px",
               }}
             >
-              image placeholder
+              <img
+                src={Profile}
+                alt="Profile"
+                style={{ maxWidth: "300px", maxHeight: "300px" }}
+              />
             </div>
             <Spacer type="column" size="xxlarge" />
             <div

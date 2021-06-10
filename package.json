@@ -10,10 +10,13 @@
     "typescript": "^4.3.2"
   },
   "scripts": {
+    "all": "npm run build && npm run deploy && npm run invalidate",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "aws s3 sync --acl public-read --profile tanya --delete build/ s3://tanya-portfolio",
+    "invalidate": "aws cloudfront --profile tanya create-invalidation --distribution-id E1J0AG7JCSY5DC --paths \"/*\""
   },
   "eslintConfig": {
     "extends": [
