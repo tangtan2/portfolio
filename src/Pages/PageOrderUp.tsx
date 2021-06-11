@@ -52,9 +52,10 @@ export default class PageOrderUp extends React.Component {
             <Spacer type="row" size="medium" />
             <div>
               OrderUp! was developed using a C#/.NET Core backend and a React
-              frontend, employing SignalR to facilitate WebSocket communication.
-              DEPLOY TBD. It is currently installed as a pilot project in a
-              medium-to-large size manufacturing facility in Ontario, Canada.
+              frontend, employing SignalR to facilitate WebSocket communication,
+              and deploys on IIS. It was recently installed as a pilot project
+              in a medium-to-large size manufacturing facility in Ontario,
+              Canada.
             </div>
           </div>
           <Spacer type="row" size="xxlarge" />

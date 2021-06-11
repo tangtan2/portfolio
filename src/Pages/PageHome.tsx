@@ -1,7 +1,7 @@
 import React from "react";
 import Page from "../Shared/Page";
 import Spacer from "../Shared/Spacer";
-import CV from "../files/conference_paper.pdf";
+import Resume from "../files/resume.pdf";
 import Profile from "../images/profile.png";
 import { Link } from "react-router-dom";
 
@@ -78,8 +78,8 @@ export default class PageHome extends React.Component {
             </a>
             , researching problem-solving techniques at the intersection of
             applied mathematics and artificial intelligence. You can view my
-            full CV{" "}
-            <a rel="noopener noreferrer" href={CV} target="_blank">
+            full resume{" "}
+            <a rel="noopener noreferrer" href={Resume} target="_blank">
               here
             </a>
             !
@@ -124,20 +124,22 @@ export default class PageHome extends React.Component {
           <Spacer type="row" size="xlarge" />
           <div>
             <b>Languages:</b> Python, Java, C#, JavaScript/TypeScript, C++,
-            MATLAB
+            MATLAB, Scala
           </div>
           <div>
-            <b>Machine Learning:</b> scikit-learn, keras, Spark ML
+            <b>Machine Learning:</b> scikit-learn, keras, Spark ML, Linear
+            Algebra, Calculus, Statistics
           </div>
           <div>
-            <b>Optimization:</b> CPLEX, Gurobi, OR-Tools, FICO XPRESS
+            <b>Optimization Tools:</b> CPLEX, Gurobi, OR-Tools, FICO XPRESS
           </div>
           <div>
             <b>Development:</b> React, NodeJS, Angular, .NET Core/Framework,
-            SignalR, Flask
+            SignalR, Flask, AWS EC2, AWS RDS, AWS S3, Maven
           </div>
           <div>
-            <b>Miscellaneous:</b> SQL, Git/GitHub, jupyter, seaborn/matplotlib
+            <b>Miscellaneous:</b> SQL, Git/GitHub, jupyter, seaborn/matplotlib,
+            Unix/Linux
           </div>
           <Spacer type="row" size="xxlarge" />
           <div

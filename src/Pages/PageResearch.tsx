@@ -49,8 +49,8 @@ export default class PageResearch extends React.Component {
             I have experience working with linear/mixed integer programming,
             constraint programming, stochastic simulation, constrained
             clustering, metaheuristics, experimental design, and advanced
-            planning/scheduling. You can view the Java code that accompanies my
-            thesis{" "}
+            planning/scheduling. You can view the Java/Maven project that
+            accompanies my thesis{" "}
             <a href="https://github.com/tangtan2/scheduling_composites_manufacturing">
               here!
             </a>
