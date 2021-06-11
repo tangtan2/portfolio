@@ -37,7 +37,7 @@ export default class PageOrderUp extends React.Component {
               boxShadow: "2px 2px 1px 1px lightgrey",
               padding: "20px",
               backgroundColor: "white",
-              width: "950px",
+              width: "90%",
               fontStyle: "italic",
             }}
           >
@@ -99,7 +99,7 @@ export default class PageOrderUp extends React.Component {
               backgroundColor: "white",
             }}
           >
-            <img src={UserPage} alt="User Page" width="950px" />
+            <img src={UserPage} alt="User Page" width="90%" />
             <div style={{ fontSize: "10pt", fontStyle: "italic" }}>
               Operators will have access to this screen to place new orders and
               view their active orders.
@@ -118,9 +118,9 @@ export default class PageOrderUp extends React.Component {
               backgroundColor: "white",
             }}
           >
-            <img src={WarehousePage} alt="Warehouse Page" width="950px" />
+            <img src={WarehousePage} alt="Warehouse Page" width="90%" />
             <div
-              style={{ fontSize: "10pt", fontStyle: "italic", width: "950px" }}
+              style={{ fontSize: "10pt", fontStyle: "italic", width: "90%" }}
             >
               Warehouse staff will have access to this screen to view active
               orders from all users. When an order is complete, they can click
@@ -135,7 +135,6 @@ export default class PageOrderUp extends React.Component {
           <Spacer type="row" size="xxlarge" />
           <div
             style={{
-              width: "950px",
               padding: "20px",
               borderRadius: "10px",
               border: "1px solid lightgrey",
@@ -173,7 +172,7 @@ export default class PageOrderUp extends React.Component {
               backgroundColor: "white",
             }}
           >
-            <img src={AdminPage} alt="Admin Page" width="950px" />
+            <img src={AdminPage} alt="Admin Page" width="90%" />
             <div style={{ fontSize: "10pt", fontStyle: "italic" }}>
               Administrators will have access to this screen, which allows them
               to verify new accounts and allow new users to access the

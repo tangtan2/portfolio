@@ -2,7 +2,7 @@ import React from "react";
 import Page from "../Shared/Page";
 import Spacer from "../Shared/Spacer";
 import Resume from "../files/resume.pdf";
-import Profile from "../images/profile.png";
+import Profile from "../images/profile.jpg";
 import { Link } from "react-router-dom";
 
 export default class PageHome extends React.Component {

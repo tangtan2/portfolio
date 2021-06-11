@@ -21,6 +21,8 @@ const Page = (props: any) => {
         <div style={{ flex: 1 }} />
         <div
           style={{
+            marginLeft: "20px",
+            marginRight: "20px",
             width: "1000px",
           }}
         >

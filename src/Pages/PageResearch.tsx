@@ -32,7 +32,7 @@ export default class PageResearch extends React.Component {
             boxShadow: "2px 2px 1px 1px lightgrey",
             padding: "20px",
             backgroundColor: "white",
-            width: "950px",
+            width: "90%",
             fontStyle: "italic",
           }}
         >
