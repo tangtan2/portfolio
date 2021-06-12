@@ -20,7 +20,7 @@ const Menu = () => {
           marginRight: "15px",
         }}
         onClick={() => {
-          history.push("/about-me");
+          history.push("/");
         }}
       >
         ABOUT ME
