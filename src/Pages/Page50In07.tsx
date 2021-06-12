@@ -21,11 +21,6 @@ export default class Page50In07 extends React.Component {
           >
             50 in '07: Predictive Analytics in the NHL
           </div>
-          <Spacer type="row" size="medium" />
-          <div>
-            Make your own predictions by exploring the application{" "}
-            <a href="https://50in0seven.ca">here</a>!
-          </div>
           <Spacer type="row" size="xxlarge" />
           <div
             style={{
@@ -53,11 +48,17 @@ export default class Page50In07 extends React.Component {
               an AWS EC2 instance and runs on a Gunicorn server behind an NGINX
               reverse proxy. The backend connects to a PostgreSQL database
               hosted on AWS RDS. The frontend is a single-page application
-              devleped in React and hosted on AWS S3.
+              developed in React and hosted on AWS S3.
             </div>
           </div>
           <Spacer type="row" size="xxlarge" />
-          <div>TBD</div>
+          <div>
+            Go to the website <a href="https://50in0seven.ca">50in0seven.ca</a>{" "}
+            to test out some predictive models for goal prediction. The website
+            includes some background on the project and its motivation, an
+            analysis of several aspects of game/team data using Tableau, and a
+            demo where you can try to make a prediction yourself!
+          </div>
         </div>
       </Page>
     );

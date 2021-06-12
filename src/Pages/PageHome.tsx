@@ -77,11 +77,14 @@ export default class PageHome extends React.Component {
               Dr. Christopher Beck
             </a>
             , researching problem-solving techniques at the intersection of
-            applied mathematics and artificial intelligence. You can view my
-            full resume{" "}
-            <a rel="noopener noreferrer" href={Resume} target="_blank">
-              here
-            </a>
+            applied mathematics and artificial intelligence.
+            <Spacer type="row" size="large" />
+            <b>
+              You can view my full resume{" "}
+              <a rel="noopener noreferrer" href={Resume} target="_blank">
+                here
+              </a>
+            </b>
             !
           </div>
           <Spacer type="row" size="large" />
