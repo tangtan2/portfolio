@@ -11,56 +11,47 @@ const Menu = () => {
       style={{
         display: "flex",
         flexDirection: "row",
+        flexWrap: "wrap",
         alignItems: "center",
+        fontSize: "12pt",
       }}
     >
       <div
         className="menu-item"
-        style={{
-          marginRight: "15px",
-        }}
         onClick={() => {
           history.push("/");
         }}
       >
         ABOUT ME
       </div>
-      <Spacer type="column" size="large" />
+      <Spacer type="column" size="xxlarge" />
       <div
         className="menu-item"
-        style={{
-          marginRight: "15px",
-        }}
         onClick={() => {
           history.push("/50-in-07");
         }}
       >
         50 IN '07: PREDICTIVE SPORTS ANALYTICS
       </div>
-      <Spacer type="column" size="large" />
+      <Spacer type="column" size="xxlarge" />
       <div
         className="menu-item"
-        style={{
-          marginRight: "15px",
-        }}
         onClick={() => {
           history.push("/order-up");
         }}
       >
         ORDERUP!: LIVE ORDERING SYSTEM
       </div>
-      <Spacer type="column" size="large" />
+      <Spacer type="column" size="xxlarge" />
       <div
         className="menu-item"
-        style={{
-          marginRight: "40px",
-        }}
         onClick={() => {
           history.push("/research");
         }}
       >
         RESEARCH AND PUBLICATIONS
       </div>
+      <Spacer type="column" size="xxlarge" />
     </div>
   );
 };
@@ -70,16 +61,19 @@ export default class Header extends React.Component {
     return (
       <div
         style={{
-          height: "100px",
+          minHeight: "50px",
           display: "flex",
           flexDirection: "row",
           alignItems: "center",
+          flexWrap: "wrap",
+          padding: "20px",
         }}
       >
         <div
           style={{
             fontSize: "30px",
             marginLeft: "40px",
+            lineHeight: "50px",
           }}
         >
           TANYA TANG

@@ -19,6 +19,7 @@ export default class PageHome extends React.Component {
             style={{
               display: "flex",
               flexDirection: "row",
+              flexWrap: "wrap",
             }}
           >
             <Spacer type="column" size="xlarge" />
@@ -40,10 +41,9 @@ export default class PageHome extends React.Component {
             <Spacer type="column" size="xxlarge" />
             <div
               style={{
-                height: "300px",
+                maxHeight: "300px",
                 display: "flex",
                 flexDirection: "column",
-                lineHeight: "50px",
                 alignItems: "center",
                 justifyContent: "center",
                 flex: 1,

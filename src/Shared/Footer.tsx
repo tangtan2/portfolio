@@ -9,8 +9,9 @@ const Footer = () => {
       <div
         style={{
           display: "flex",
-          flexDirection: "row",
+          flexDirection: "column",
           alignItems: "center",
+          flexWrap: "wrap",
           justifyContent: "center",
           paddingTop: "40px",
           paddingBottom: "40px",
@@ -30,15 +31,15 @@ const Footer = () => {
         >
           CONTACT ME
         </div>
-        <Spacer type="column" size="xxlarge" />
+        <Spacer type="row" size="large" />
         <img alt="Email Logo" width="40px" height="35px" src={EmailLogo} />
         <Spacer type="column" size="large" />
         <a href="mailto:tanya.tang56@gmail.com">tanya.tang56@gmail.com</a>
-        <Spacer type="column" size="xxlarge" />
+        <Spacer type="row" size="large" />
         <GithubLogo style={{ width: "40px", height: "40px" }} />
         <Spacer type="column" size="large" />
         <a href="https://github.com/tangtan2">tangtan2</a>
-        <Spacer type="column" size="xxlarge" />
+        <Spacer type="row" size="large" />
         <img
           alt="LinkedIn Logo"
           width="40px"
