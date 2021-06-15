@@ -24,7 +24,7 @@ const Menu = () => {
       >
         ABOUT ME
       </div>
-      <Spacer type="column" size="xxlarge" />
+      <Spacer type="column" size="xlarge" />
       <div
         className="menu-item"
         onClick={() => {
@@ -33,7 +33,7 @@ const Menu = () => {
       >
         50 IN '07: PREDICTIVE SPORTS ANALYTICS
       </div>
-      <Spacer type="column" size="xxlarge" />
+      <Spacer type="column" size="xlarge" />
       <div
         className="menu-item"
         onClick={() => {
@@ -42,7 +42,7 @@ const Menu = () => {
       >
         ORDERUP!: LIVE ORDERING SYSTEM
       </div>
-      <Spacer type="column" size="xxlarge" />
+      <Spacer type="column" size="xlarge" />
       <div
         className="menu-item"
         onClick={() => {
@@ -51,7 +51,7 @@ const Menu = () => {
       >
         RESEARCH AND PUBLICATIONS
       </div>
-      <Spacer type="column" size="xxlarge" />
+      <Spacer type="column" size="xlarge" />
     </div>
   );
 };
@@ -72,7 +72,7 @@ export default class Header extends React.Component {
         <div
           style={{
             fontSize: "30px",
-            marginLeft: "40px",
+            marginLeft: "20px",
             lineHeight: "50px",
           }}
         >

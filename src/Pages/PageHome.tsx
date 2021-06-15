@@ -53,8 +53,8 @@ export default class PageHome extends React.Component {
               }}
             >
               Hi! I'm an optimization consultant, software developer, data
-              storyteller, and engineer who loves trying to solve difficult
-              problems.
+              storyteller, scientist, and engineer who loves trying to solve
+              difficult problems.
             </div>
             <Spacer type="column" size="xlarge" />
           </div>
@@ -79,7 +79,7 @@ export default class PageHome extends React.Component {
             , researching problem-solving techniques at the intersection of
             applied mathematics and artificial intelligence.
             <Spacer type="row" size="large" />
-            <b>
+            <b style={{ fontSize: "20px" }}>
               You can view my full resume{" "}
               <a rel="noopener noreferrer" href={Resume} target="_blank">
                 here
@@ -97,10 +97,8 @@ export default class PageHome extends React.Component {
             <Link to="/order-up">
               live ordering system for manufacturing facilities
             </Link>
-            . I also have some other projects on my{" "}
-            <a href="https://github.com/tangtan2">GitHub</a> profile, including
-            an{" "}
-            <a href="https://github.com/tangtan2/emotion_detection">
+            . I have also completed some other projects, including an{" "}
+            <a href="https://medium.com/swlh/dynamic-emotion-detector-using-transfer-learning-6856f3275c1a">
               emotion detection model
             </a>{" "}
             using deep transfer learning and a{" "}
